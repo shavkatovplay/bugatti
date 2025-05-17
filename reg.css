@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first-section{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(./forreg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.content{
+    font-family: "Mulish", sans-serif;
+    width: 900px;
+    height: 600px;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    margin: 170px 500px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 5px rgba(238, 156, 5, 0.445);
+   
+}
+.left{
+    width: 350px;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pngpng{
+    width: 250px;
+    height: 200px;
+}
+.right{
+    width: 550px;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(206, 206, 206);
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.right input{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px white;
+}
+.right input::placeholder{
+ font-size: 20px;
+ text-align: center;
+}
+.right input:hover{
+    transform: scale(1.03);
+    transition: .3s;
+}
+

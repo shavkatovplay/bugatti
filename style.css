@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+RO:wght@100..400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.first-section {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.664)), url(./1678275292_sneg-top-p-bugatti-mashina-oboi-7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+.first-section li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px 20px;
+    position: relative;
+}
+
+.first-section a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    transform: translateY(-50%);
+    color: white;
+}
+
+.content h1 {
+    font-size: 80px;
+    margin-top: 80px;
+}
+
+.content p {
+    margin: 20px auto;
+    line-height: 25px;
+}
+
+.content button {
+    width: 200px;
+    padding: 15px 0px;
+    border-radius: 25px;
+    margin: 20px 10px;
+    font-weight: bolder;
+    background-color: transparent;
+    color: white;
+    border: 1px solid green;
+}
+
+.testdrive:hover {
+    transform: scale(1.05);
+    transition: all .3s;
+    border: red solid 1px;
+    cursor: pointer;
+}
+
+.purchase:hover {
+    transform: scale(1.05);
+    transition: all .3s;
+    border: red solid 1px;
+    cursor: pointer;
+}
+
+.second-section {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.664)), url(./csr-2-bugatti-series-4-1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.card {
+    width: 350px;
+    height: 450px;
+    border: white 1px solid;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(rgba(255, 255, 255, 0.199), rgba(0, 0, 0, 0.664)), url(./poser1.jpg);
+}
+
+.card-text {
+    width: 100%;
+    height: 80%;
+    /* border: 1px solid red; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card-button {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card-button button {
+    width: 250px;
+    padding: 10px 0px;
+    background-color: transparent;
+    border: 3px solid rgb(0, 255, 191);
+    color: white;
+    border-radius: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.card-button button:hover {
+    transform: scale(1.03);
+    border-color: red;
+    transition: all 0.5s;
+}
+
+.card-text h1 {
+    color: white;
+
+}
+
+.card-text p {
+    color: white;
+    display: none;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    border: 3px solid red;
+    border-radius: 16px;
+    transition: all 0.5s;
+}
+
+.card:hover p {
+    transition: all 0.5s;
+    display: block;
+    font-family: "Playwrite RO", cursive;
+}
+
+.card:hover h1 {
+    transition: all 0.5s;
+    display: none;
+}
+
+.cardA {
+    width: 350px;
+    height: 450px;
+    border: white 1px solid;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(rgba(255, 255, 255, 0.199), rgba(0, 0, 0, 0.664)), url(./1.jpg);
+}
+
+.card-textA {
+    width: 100%;
+    height: 80%;
+    /* border: 1px solid red; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card-buttonA {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card-buttonA button {
+    width: 250px;
+    padding: 10px 0px;
+    background-color: transparent;
+    border: 3px solid rgb(0, 255, 191);
+    color: white;
+    border-radius: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.card-buttonA button:hover {
+    transform: scale(1.03);
+    border-color: red;
+    transition: all 0.5s;
+}
+
+.card-textA h1 {
+    color: white;
+    text-align: center;
+
+}
+
+.card-textA p {
+    color: white;
+    display: none;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.cardA:hover {
+    transform: scale(1.03);
+    border: 3px solid red;
+    border-radius: 16px;
+    transition: all 0.5s;
+}
+
+.cardA:hover p {
+    transition: all 0.5s;
+    display: block;
+    font-family: "Playwrite RO", cursive;
+}
+
+.cardA:hover h1 {
+    transition: all 0.5s;
+    display: none;
+}
+
+.cardB {
+    width: 350px;
+    height: 450px;
+    border: white 1px solid;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(rgba(255, 255, 255, 0.199), rgba(0, 0, 0, 0.664)), url(./poster2.jpg);
+}
+
+.card-textB {
+    width: 100%;
+    height: 80%;
+    /* border: 1px solid red; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card-buttonB {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card-buttonB button {
+    width: 250px;
+    padding: 10px 0px;
+    background-color: transparent;
+    border: 3px solid rgb(0, 255, 191);
+    color: white;
+    border-radius: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.card-buttonB button:hover {
+    transform: scale(1.03);
+    border-color: red;
+    transition: all 0.5s;
+}
+
+.card-textB h1 {
+    color: white;
+
+}
+
+.card-textB p {
+    color: white;
+    display: none;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.cardB:hover {
+    transform: scale(1.03);
+    border: 3px solid red;
+    border-radius: 16px;
+    transition: all 0.5s;
+}
+
+.cardB:hover p {
+    transition: all 0.5s;
+    display: block;
+    font-family: "Playwrite RO", cursive;
+}
+
+.cardB:hover h1 {
+    transition: all 0.5s;
+    display: none;
+}
+
+.cardC {
+    width: 350px;
+    height: 450px;
+    border: white 1px solid;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(rgba(255, 255, 255, 0.199), rgba(0, 0, 0, 0.664)), url(./Divo.jpg);
+}
+
+.card-textC {
+    width: 100%;
+    height: 80%;
+    /* border: 1px solid red; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card-buttonC {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card-buttonC button {
+    width: 250px;
+    padding: 10px 0px;
+    background-color: transparent;
+    border: 3px solid rgb(0, 255, 191);
+    color: white;
+    border-radius: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.card-buttonC button:hover {
+    transform: scale(1.03);
+    border-color: red;
+    transition: all 0.5s;
+}
+
+.card-textC h1 {
+    color: white;
+
+}
+
+.card-textC p {
+    color: white;
+    display: none;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.cardC:hover {
+    transform: scale(1.03);
+    border: 3px solid red;
+    border-radius: 16px;
+    transition: all 0.5s;
+}
+
+.cardC:hover p {
+    transition: all 0.5s;
+    display: block;
+    font-family: "Playwrite RO", cursive;
+}
+
+.cardC:hover h1 {
+    transition: all 0.5s;
+    display: none;
+}
+
+.card-section {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #242424;
+}
+
+.footer h1 {
+    font-size: 40px;
+    font-family: 'Cascadia Code';
+    color: rgb(161, 160, 160);
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer li {
+    list-style-type: none;
+}
+
+.footer li {
+    list-style-type: none;
+    font-size: 25px;
+    font-family: 'Cascadia Code';
+}
+
+.footer ul {
+    margin: 50px 0px;
+    height: 30vh;
+}
+
+
+.footer a:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+    transition: all .2s;
+    color: white;
+}
+
+.footer li:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+    transition: all .2s;
+    color: white;
+}
+
+@media (max-width: 860px) {
+    nav {
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav ul {
+        position: relative;
+        right: 80px;
+    }
+
+    nav ul li {
+        margin: 0px 10px !important;
+    }
+
+    nav li a {
+        font-size: 15px;
+    }
+
+    .content {
+        width: 100%;
+
+    }
+
+    .content h1 {
+        text-align: center;
+    }
+
+    .content p {
+        text-align: center;
+        width: 80%;
+        position: relative;
+        left: -50px;
+    }
+
+    .card-section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        transform: scale(0.7);
+    }
+
+    .cardA {
+        transform: scale(0.7);
+    }
+
+    .cardB {
+        transform: scale(0.7);
+    }
+
+    .cardC {
+        transform: scale(0.7);
+    }
+
+    .footer {
+        justify-content: space-around;
+    }
+}
